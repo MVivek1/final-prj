@@ -6,7 +6,7 @@
 - GPU Compute Capability > 3.0 
 
 
-You can find the list of requirements in [requirements.txt](https://github.com/abhijitjadhav1998/Deepfake_detection_using_deep_learning/blob/master/Django%20Application/requirements.txt). Main requirements are listed below:
+You can find the list of requirements in [requirements.txt]. Main requirements are listed below:
 
 ```
 Python >= v3.6
@@ -39,7 +39,7 @@ docker run -p 80:80 --volumes-from deepfakeapplication -v static_volume:/home/ap
 ## We deserve a Coffee ☕ <a href="https://www.buymeacoffee.com/abhijitjadhav" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 35px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 
-Please note that currently we have only pushed the image of 20 Frames model, If you can to create your own image of other frames model follow the steps given in the [blog](https://abhijithjadhav.medium.com/dockerise-deepfake-detection-django-application-using-nvidia-cuda-40cdda3b6d38).
+Please note that currently we have only pushed the image of 20 Frames model, If you can to create your own image of other frames model follow the steps given in the [blog]
 
 # Running application locally on your machine
 
@@ -76,5 +76,4 @@ Please note that currently we have only pushed the image of 20 Frames model, If 
 
 `python manage.py runserver`
 <p align="center">
-  <img src="https://github.com/abhijitjadhav1998/Deepfake_detection_using_deep_learning/blob/master/github_assets/fakegif.gif" />
 </p>  
